@@ -1,15 +1,16 @@
 # Backend del Trabajo Final - OPCION A
 
-## Contenidos
-* PERFIL DE USUARIO
-* CRUD signos
+## Trabajo Realizado
+* CRUD SIGNOS
 
 ## Uso
-Para usar el sistema ingresar con los siguientes usuarios
+Para usar el sistema considerar los siguientes datos para la conexion a la base de datos:
 
 ```
-usuario: mito@gmail.com  password: 123 rol: ['admin','dba']
+spring.datasource.url=jdbc:postgresql://localhost/mediappbd4
+spring.datasource.username=postgres
+spring.datasource.password=123
 ```
-```
-usuario: jaime  password: 123 rol:['usuario']
-```
+
+Ademas, el mismo proyecto contiene scripts para insercion  de datos en el esquema los cuales se encuentran en el archivo data.sql
+
